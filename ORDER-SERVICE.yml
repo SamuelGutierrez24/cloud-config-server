@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    prefer-ip-address: false 
+    hostname: order-service
+  client:
+    serviceUrl:
+      defaultZone: http://service-discovery:8761/eureka/
+
+features:
+  newSearchAlgorithm:
+    enabled: true
